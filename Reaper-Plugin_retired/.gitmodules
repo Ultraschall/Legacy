@@ -1,9 +1,0 @@
-[submodule "External/tinyxml2"]
-	path = External/tinyxml2
-	url = https://github.com/leethomason/tinyxml2
-[submodule "External/WDL"]
-	path = External/WDL
-	url = http://www-dev.cockos.com/wdl/WDL.git
-[submodule "External/json11"]
-	path = External/json11
-	url = https://github.com/dropbox/json11.git
