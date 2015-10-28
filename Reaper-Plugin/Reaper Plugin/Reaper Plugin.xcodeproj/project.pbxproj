@@ -1,0 +1,975 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282F99D9195C5E0300E24A1C /* svg_colors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 282F99D7195C5E0300E24A1C /* svg_colors.cpp */; };
+		285419801958A75C0031FB61 /* png.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419701958A75C0031FB61 /* png.c */; };
+		285419811958A75C0031FB61 /* png.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419711958A75C0031FB61 /* png.h */; };
+		285419821958A75C0031FB61 /* pngconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419721958A75C0031FB61 /* pngconf.h */; };
+		285419831958A75C0031FB61 /* pngerror.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419731958A75C0031FB61 /* pngerror.c */; };
+		285419841958A75C0031FB61 /* pngget.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419741958A75C0031FB61 /* pngget.c */; };
+		285419851958A75C0031FB61 /* pngmem.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419751958A75C0031FB61 /* pngmem.c */; };
+		285419861958A75C0031FB61 /* pngpread.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419761958A75C0031FB61 /* pngpread.c */; };
+		285419871958A75C0031FB61 /* pngread.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419771958A75C0031FB61 /* pngread.c */; };
+		285419881958A75C0031FB61 /* pngrio.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419781958A75C0031FB61 /* pngrio.c */; };
+		285419891958A75C0031FB61 /* pngrtran.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419791958A75C0031FB61 /* pngrtran.c */; };
+		2854198A1958A75C0031FB61 /* pngrutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 2854197A1958A75C0031FB61 /* pngrutil.c */; };
+		2854198B1958A75C0031FB61 /* pngset.c in Sources */ = {isa = PBXBuildFile; fileRef = 2854197B1958A75C0031FB61 /* pngset.c */; };
+		2854198C1958A75C0031FB61 /* pngtrans.c in Sources */ = {isa = PBXBuildFile; fileRef = 2854197C1958A75C0031FB61 /* pngtrans.c */; };
+		2854198D1958A75C0031FB61 /* pngwio.c in Sources */ = {isa = PBXBuildFile; fileRef = 2854197D1958A75C0031FB61 /* pngwio.c */; };
+		2854198E1958A75C0031FB61 /* pngwtran.c in Sources */ = {isa = PBXBuildFile; fileRef = 2854197E1958A75C0031FB61 /* pngwtran.c */; };
+		2854198F1958A75C0031FB61 /* pngwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 2854197F1958A75C0031FB61 /* pngwutil.c */; };
+		285419971958A8A30031FB61 /* lice_arc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 285419911958A8A30031FB61 /* lice_arc.cpp */; };
+		285419981958A8A30031FB61 /* lice_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 285419921958A8A30031FB61 /* lice_image.cpp */; };
+		285419991958A8A30031FB61 /* lice_line.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 285419931958A8A30031FB61 /* lice_line.cpp */; };
+		2854199A1958A8A30031FB61 /* lice_png.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 285419941958A8A30031FB61 /* lice_png.cpp */; };
+		2854199B1958A8A30031FB61 /* lice_text.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419951958A8A30031FB61 /* lice_text.h */; };
+		2854199C1958A8A30031FB61 /* lice_textnew.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 285419961958A8A30031FB61 /* lice_textnew.cpp */; };
+		2854199E1958A9100031FB61 /* virtwnd-slider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2854199D1958A9100031FB61 /* virtwnd-slider.cpp */; };
+		285419A71958A92D0031FB61 /* virtwnd-controls.h in Headers */ = {isa = PBXBuildFile; fileRef = 2854199F1958A92D0031FB61 /* virtwnd-controls.h */; };
+		285419A81958A92D0031FB61 /* virtwnd-iconbutton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 285419A01958A92D0031FB61 /* virtwnd-iconbutton.cpp */; };
+		285419A91958A92D0031FB61 /* virtwnd-listbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 285419A11958A92D0031FB61 /* virtwnd-listbox.cpp */; };
+		285419AA1958A92D0031FB61 /* virtwnd-skin.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419A21958A92D0031FB61 /* virtwnd-skin.h */; };
+		285419AB1958A92D0031FB61 /* virtwnd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 285419A31958A92D0031FB61 /* virtwnd.cpp */; };
+		285419AC1958A92D0031FB61 /* virtwnd.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419A41958A92D0031FB61 /* virtwnd.h */; };
+		285419AD1958A92D0031FB61 /* wndsize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 285419A51958A92D0031FB61 /* wndsize.cpp */; };
+		285419AE1958A92D0031FB61 /* wndsize.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419A61958A92D0031FB61 /* wndsize.h */; };
+		285419B21958A9880031FB61 /* projectcontext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 285419B11958A9880031FB61 /* projectcontext.cpp */; };
+		285419B41958A9E10031FB61 /* swell-misc.mm in Sources */ = {isa = PBXBuildFile; fileRef = 285419B31958A9E10031FB61 /* swell-misc.mm */; };
+		285419B61958AB380031FB61 /* swell-internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419B51958AB380031FB61 /* swell-internal.h */; };
+		285419B81958AB460031FB61 /* swell-dlggen.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419B71958AB460031FB61 /* swell-dlggen.h */; };
+		285419BA1958AB510031FB61 /* swell-menu.mm in Sources */ = {isa = PBXBuildFile; fileRef = 285419B91958AB510031FB61 /* swell-menu.mm */; };
+		285419BC1958AB670031FB61 /* swell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 285419BB1958AB670031FB61 /* swell.cpp */; };
+		285419BE1958AB6F0031FB61 /* swell-ini.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 285419BD1958AB6F0031FB61 /* swell-ini.cpp */; };
+		285419C11958AB8F0031FB61 /* swell-miscdlg.mm in Sources */ = {isa = PBXBuildFile; fileRef = 285419BF1958AB8F0031FB61 /* swell-miscdlg.mm */; };
+		285419C21958AB8F0031FB61 /* swell-modstub.mm in Sources */ = {isa = PBXBuildFile; fileRef = 285419C01958AB8F0031FB61 /* swell-modstub.mm */; };
+		285419C41958AB9F0031FB61 /* swell-wnd.mm in Sources */ = {isa = PBXBuildFile; fileRef = 285419C31958AB9F0031FB61 /* swell-wnd.mm */; };
+		285419C61958ABA90031FB61 /* swell-dlg.mm in Sources */ = {isa = PBXBuildFile; fileRef = 285419C51958ABA90031FB61 /* swell-dlg.mm */; };
+		285419C81958ABC80031FB61 /* swell-kb.mm in Sources */ = {isa = PBXBuildFile; fileRef = 285419C71958ABC80031FB61 /* swell-kb.mm */; };
+		285419CA1958AC1E0031FB61 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285419C91958AC1E0031FB61 /* Carbon.framework */; };
+		285419CC1958ACDD0031FB61 /* sha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 285419CB1958ACDD0031FB61 /* sha.cpp */; };
+		285419CE1958AF5E0031FB61 /* swell-gdi.mm in Sources */ = {isa = PBXBuildFile; fileRef = 285419CD1958AF5E0031FB61 /* swell-gdi.mm */; };
+		285419E51958B2110031FB61 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419D01958B2110031FB61 /* adler32.c */; };
+		285419E61958B2110031FB61 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419D11958B2110031FB61 /* compress.c */; };
+		285419E71958B2110031FB61 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419D21958B2110031FB61 /* crc32.c */; };
+		285419E81958B2110031FB61 /* crc32.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419D31958B2110031FB61 /* crc32.h */; };
+		285419E91958B2110031FB61 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419D41958B2110031FB61 /* deflate.c */; };
+		285419EA1958B2110031FB61 /* deflate.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419D51958B2110031FB61 /* deflate.h */; };
+		285419EB1958B2110031FB61 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419D61958B2110031FB61 /* inffast.c */; };
+		285419EC1958B2110031FB61 /* inffast.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419D71958B2110031FB61 /* inffast.h */; };
+		285419ED1958B2110031FB61 /* inffixed.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419D81958B2110031FB61 /* inffixed.h */; };
+		285419EE1958B2110031FB61 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419D91958B2110031FB61 /* inflate.c */; };
+		285419EF1958B2110031FB61 /* inflate.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419DA1958B2110031FB61 /* inflate.h */; };
+		285419F01958B2110031FB61 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419DB1958B2110031FB61 /* inftrees.c */; };
+		285419F11958B2110031FB61 /* inftrees.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419DC1958B2110031FB61 /* inftrees.h */; };
+		285419F21958B2110031FB61 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419DD1958B2110031FB61 /* trees.c */; };
+		285419F31958B2110031FB61 /* trees.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419DE1958B2110031FB61 /* trees.h */; };
+		285419F41958B2110031FB61 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419DF1958B2110031FB61 /* uncompr.c */; };
+		285419F51958B2110031FB61 /* zconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419E01958B2110031FB61 /* zconf.h */; };
+		285419F61958B2110031FB61 /* zconf.in.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419E11958B2110031FB61 /* zconf.in.h */; };
+		285419F71958B2110031FB61 /* zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419E21958B2110031FB61 /* zlib.h */; };
+		285419F81958B2110031FB61 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419E31958B2110031FB61 /* zutil.c */; };
+		285419F91958B2110031FB61 /* zutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419E41958B2110031FB61 /* zutil.h */; };
+		285419FB1958B5E40031FB61 /* pngwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 285419FA1958B5E40031FB61 /* pngwrite.c */; };
+		285419FF1958BD7C0031FB61 /* DockWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 285419FD1958BD7C0031FB61 /* DockWindow.cpp */; };
+		28541A001958BD7C0031FB61 /* DockWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 285419FE1958BD7C0031FB61 /* DockWindow.h */; };
+		28541A071958CF210031FB61 /* Menus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28541A051958CF210031FB61 /* Menus.cpp */; };
+		28541A081958CF210031FB61 /* Menus.h in Headers */ = {isa = PBXBuildFile; fileRef = 28541A061958CF210031FB61 /* Menus.h */; };
+		28541A0B1958CF4A0031FB61 /* localize-import.h in Headers */ = {isa = PBXBuildFile; fileRef = 28541A091958CF4A0031FB61 /* localize-import.h */; };
+		28541A0C1958CF4A0031FB61 /* localize.h in Headers */ = {isa = PBXBuildFile; fileRef = 28541A0A1958CF4A0031FB61 /* localize.h */; };
+		28D8A998195EC8AA000BA321 /* lice_svg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28D8A997195EC8AA000BA321 /* lice_svg.cpp */; };
+		28EBD2E81960BCB4003CDAED /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EBD2E21960BCB4003CDAED /* tinystr.cpp */; };
+		28EBD2E91960BCB4003CDAED /* tinystr.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EBD2E31960BCB4003CDAED /* tinystr.h */; };
+		28EBD2EA1960BCB4003CDAED /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EBD2E41960BCB4003CDAED /* tinyxml.cpp */; };
+		28EBD2EB1960BCB4003CDAED /* tinyxml.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EBD2E51960BCB4003CDAED /* tinyxml.h */; };
+		28EBD2EC1960BCB4003CDAED /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EBD2E61960BCB4003CDAED /* tinyxmlerror.cpp */; };
+		28EBD2ED1960BCB4003CDAED /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EBD2E71960BCB4003CDAED /* tinyxmlparser.cpp */; };
+		28F0EE861955F74C003BF618 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F0EE851955F74C003BF618 /* Cocoa.framework */; };
+		28F0EEDE195606F6003BF618 /* reaper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28F0EEDC195606F6003BF618 /* reaper.cpp */; };
+		28F0EEE419560759003BF618 /* tinyxml2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28F0EEE219560759003BF618 /* tinyxml2.cpp */; };
+		28F0EEEB1956086D003BF618 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F0EE961955F74C003BF618 /* XCTest.framework */; };
+		28F0EEF11956086D003BF618 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28F0EEEF1956086D003BF618 /* InfoPlist.strings */; };
+		28F0EEF31956086D003BF618 /* Ultraschall_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F0EEF21956086D003BF618 /* Ultraschall_Tests.m */; };
+		28F0EF1719566193003BF618 /* Chapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28F0EEFA195621F2003BF618 /* Chapter.cpp */; };
+		28F0EF1819566196003BF618 /* Shownote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28F0EEFC19562203003BF618 /* Shownote.cpp */; };
+		28F0EF59195743A8003BF618 /* lice.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F0EF58195743A8003BF618 /* lice.h */; };
+		28F0EF5B195743B6003BF618 /* lice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28F0EF5A195743B6003BF618 /* lice.cpp */; };
+		42595203195A1A8F00231F3D /* Auphonic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42595201195A1A8F00231F3D /* Auphonic.cpp */; };
+		42595204195A1A8F00231F3D /* Auphonic.h in Headers */ = {isa = PBXBuildFile; fileRef = 42595202195A1A8F00231F3D /* Auphonic.h */; };
+		42595207195A1AAD00231F3D /* json11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42595206195A1AAD00231F3D /* json11.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28F0EEF51956086D003BF618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28F0EE7A1955F74C003BF618 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28F0EE811955F74C003BF618;
+			remoteInfo = reaper_Ultraschall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		282F99D7195C5E0300E24A1C /* svg_colors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = svg_colors.cpp; sourceTree = "<group>"; };
+		285419701958A75C0031FB61 /* png.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = png.c; path = ../../External/WDL/WDL/libpng/png.c; sourceTree = "<group>"; };
+		285419711958A75C0031FB61 /* png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = png.h; path = ../../External/WDL/WDL/libpng/png.h; sourceTree = "<group>"; };
+		285419721958A75C0031FB61 /* pngconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pngconf.h; path = ../../External/WDL/WDL/libpng/pngconf.h; sourceTree = "<group>"; };
+		285419731958A75C0031FB61 /* pngerror.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngerror.c; path = ../../External/WDL/WDL/libpng/pngerror.c; sourceTree = "<group>"; };
+		285419741958A75C0031FB61 /* pngget.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngget.c; path = ../../External/WDL/WDL/libpng/pngget.c; sourceTree = "<group>"; };
+		285419751958A75C0031FB61 /* pngmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngmem.c; path = ../../External/WDL/WDL/libpng/pngmem.c; sourceTree = "<group>"; };
+		285419761958A75C0031FB61 /* pngpread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngpread.c; path = ../../External/WDL/WDL/libpng/pngpread.c; sourceTree = "<group>"; };
+		285419771958A75C0031FB61 /* pngread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngread.c; path = ../../External/WDL/WDL/libpng/pngread.c; sourceTree = "<group>"; };
+		285419781958A75C0031FB61 /* pngrio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngrio.c; path = ../../External/WDL/WDL/libpng/pngrio.c; sourceTree = "<group>"; };
+		285419791958A75C0031FB61 /* pngrtran.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngrtran.c; path = ../../External/WDL/WDL/libpng/pngrtran.c; sourceTree = "<group>"; };
+		2854197A1958A75C0031FB61 /* pngrutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngrutil.c; path = ../../External/WDL/WDL/libpng/pngrutil.c; sourceTree = "<group>"; };
+		2854197B1958A75C0031FB61 /* pngset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngset.c; path = ../../External/WDL/WDL/libpng/pngset.c; sourceTree = "<group>"; };
+		2854197C1958A75C0031FB61 /* pngtrans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngtrans.c; path = ../../External/WDL/WDL/libpng/pngtrans.c; sourceTree = "<group>"; };
+		2854197D1958A75C0031FB61 /* pngwio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngwio.c; path = ../../External/WDL/WDL/libpng/pngwio.c; sourceTree = "<group>"; };
+		2854197E1958A75C0031FB61 /* pngwtran.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngwtran.c; path = ../../External/WDL/WDL/libpng/pngwtran.c; sourceTree = "<group>"; };
+		2854197F1958A75C0031FB61 /* pngwutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngwutil.c; path = ../../External/WDL/WDL/libpng/pngwutil.c; sourceTree = "<group>"; };
+		285419911958A8A30031FB61 /* lice_arc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lice_arc.cpp; path = ../../External/WDL/WDL/lice/lice_arc.cpp; sourceTree = "<group>"; };
+		285419921958A8A30031FB61 /* lice_image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lice_image.cpp; path = ../../External/WDL/WDL/lice/lice_image.cpp; sourceTree = "<group>"; };
+		285419931958A8A30031FB61 /* lice_line.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lice_line.cpp; path = ../../External/WDL/WDL/lice/lice_line.cpp; sourceTree = "<group>"; };
+		285419941958A8A30031FB61 /* lice_png.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lice_png.cpp; path = ../../External/WDL/WDL/lice/lice_png.cpp; sourceTree = "<group>"; };
+		285419951958A8A30031FB61 /* lice_text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lice_text.h; path = ../../External/WDL/WDL/lice/lice_text.h; sourceTree = "<group>"; };
+		285419961958A8A30031FB61 /* lice_textnew.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lice_textnew.cpp; path = ../../External/WDL/WDL/lice/lice_textnew.cpp; sourceTree = "<group>"; };
+		2854199D1958A9100031FB61 /* virtwnd-slider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "virtwnd-slider.cpp"; sourceTree = "<group>"; };
+		2854199F1958A92D0031FB61 /* virtwnd-controls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "virtwnd-controls.h"; sourceTree = "<group>"; };
+		285419A01958A92D0031FB61 /* virtwnd-iconbutton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "virtwnd-iconbutton.cpp"; sourceTree = "<group>"; };
+		285419A11958A92D0031FB61 /* virtwnd-listbox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "virtwnd-listbox.cpp"; sourceTree = "<group>"; };
+		285419A21958A92D0031FB61 /* virtwnd-skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "virtwnd-skin.h"; sourceTree = "<group>"; };
+		285419A31958A92D0031FB61 /* virtwnd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = virtwnd.cpp; sourceTree = "<group>"; };
+		285419A41958A92D0031FB61 /* virtwnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = virtwnd.h; sourceTree = "<group>"; };
+		285419A51958A92D0031FB61 /* wndsize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wndsize.cpp; sourceTree = "<group>"; };
+		285419A61958A92D0031FB61 /* wndsize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wndsize.h; sourceTree = "<group>"; };
+		285419B11958A9880031FB61 /* projectcontext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = projectcontext.cpp; path = ../../External/WDL/WDL/projectcontext.cpp; sourceTree = "<group>"; };
+		285419B31958A9E10031FB61 /* swell-misc.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "swell-misc.mm"; path = "../../External/WDL/WDL/swell/swell-misc.mm"; sourceTree = "<group>"; };
+		285419B51958AB380031FB61 /* swell-internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "swell-internal.h"; path = "../../External/WDL/WDL/swell/swell-internal.h"; sourceTree = "<group>"; };
+		285419B71958AB460031FB61 /* swell-dlggen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "swell-dlggen.h"; path = "../../External/WDL/WDL/swell/swell-dlggen.h"; sourceTree = "<group>"; };
+		285419B91958AB510031FB61 /* swell-menu.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "swell-menu.mm"; path = "../../External/WDL/WDL/swell/swell-menu.mm"; sourceTree = "<group>"; };
+		285419BB1958AB670031FB61 /* swell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = swell.cpp; path = ../../External/WDL/WDL/swell/swell.cpp; sourceTree = "<group>"; };
+		285419BD1958AB6F0031FB61 /* swell-ini.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "swell-ini.cpp"; path = "../../External/WDL/WDL/swell/swell-ini.cpp"; sourceTree = "<group>"; };
+		285419BF1958AB8F0031FB61 /* swell-miscdlg.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "swell-miscdlg.mm"; path = "../../External/WDL/WDL/swell/swell-miscdlg.mm"; sourceTree = "<group>"; };
+		285419C01958AB8F0031FB61 /* swell-modstub.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "swell-modstub.mm"; path = "../../External/WDL/WDL/swell/swell-modstub.mm"; sourceTree = "<group>"; };
+		285419C31958AB9F0031FB61 /* swell-wnd.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "swell-wnd.mm"; path = "../../External/WDL/WDL/swell/swell-wnd.mm"; sourceTree = "<group>"; };
+		285419C51958ABA90031FB61 /* swell-dlg.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "swell-dlg.mm"; path = "../../External/WDL/WDL/swell/swell-dlg.mm"; sourceTree = "<group>"; };
+		285419C71958ABC80031FB61 /* swell-kb.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "swell-kb.mm"; path = "../../External/WDL/WDL/swell/swell-kb.mm"; sourceTree = "<group>"; };
+		285419C91958AC1E0031FB61 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		285419CB1958ACDD0031FB61 /* sha.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sha.cpp; path = ../../External/WDL/WDL/sha.cpp; sourceTree = "<group>"; };
+		285419CD1958AF5E0031FB61 /* swell-gdi.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "swell-gdi.mm"; path = "../../External/WDL/WDL/swell/swell-gdi.mm"; sourceTree = "<group>"; };
+		285419D01958B2110031FB61 /* adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adler32.c; path = ../../External/WDL/WDL/zlib/adler32.c; sourceTree = "<group>"; };
+		285419D11958B2110031FB61 /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = compress.c; path = ../../External/WDL/WDL/zlib/compress.c; sourceTree = "<group>"; };
+		285419D21958B2110031FB61 /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = crc32.c; path = ../../External/WDL/WDL/zlib/crc32.c; sourceTree = "<group>"; };
+		285419D31958B2110031FB61 /* crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = crc32.h; path = ../../External/WDL/WDL/zlib/crc32.h; sourceTree = "<group>"; };
+		285419D41958B2110031FB61 /* deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = deflate.c; path = ../../External/WDL/WDL/zlib/deflate.c; sourceTree = "<group>"; };
+		285419D51958B2110031FB61 /* deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = deflate.h; path = ../../External/WDL/WDL/zlib/deflate.h; sourceTree = "<group>"; };
+		285419D61958B2110031FB61 /* inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = inffast.c; path = ../../External/WDL/WDL/zlib/inffast.c; sourceTree = "<group>"; };
+		285419D71958B2110031FB61 /* inffast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inffast.h; path = ../../External/WDL/WDL/zlib/inffast.h; sourceTree = "<group>"; };
+		285419D81958B2110031FB61 /* inffixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inffixed.h; path = ../../External/WDL/WDL/zlib/inffixed.h; sourceTree = "<group>"; };
+		285419D91958B2110031FB61 /* inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = inflate.c; path = ../../External/WDL/WDL/zlib/inflate.c; sourceTree = "<group>"; };
+		285419DA1958B2110031FB61 /* inflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inflate.h; path = ../../External/WDL/WDL/zlib/inflate.h; sourceTree = "<group>"; };
+		285419DB1958B2110031FB61 /* inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = inftrees.c; path = ../../External/WDL/WDL/zlib/inftrees.c; sourceTree = "<group>"; };
+		285419DC1958B2110031FB61 /* inftrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inftrees.h; path = ../../External/WDL/WDL/zlib/inftrees.h; sourceTree = "<group>"; };
+		285419DD1958B2110031FB61 /* trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = trees.c; path = ../../External/WDL/WDL/zlib/trees.c; sourceTree = "<group>"; };
+		285419DE1958B2110031FB61 /* trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trees.h; path = ../../External/WDL/WDL/zlib/trees.h; sourceTree = "<group>"; };
+		285419DF1958B2110031FB61 /* uncompr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = uncompr.c; path = ../../External/WDL/WDL/zlib/uncompr.c; sourceTree = "<group>"; };
+		285419E01958B2110031FB61 /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zconf.h; path = ../../External/WDL/WDL/zlib/zconf.h; sourceTree = "<group>"; };
+		285419E11958B2110031FB61 /* zconf.in.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zconf.in.h; path = ../../External/WDL/WDL/zlib/zconf.in.h; sourceTree = "<group>"; };
+		285419E21958B2110031FB61 /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zlib.h; path = ../../External/WDL/WDL/zlib/zlib.h; sourceTree = "<group>"; };
+		285419E31958B2110031FB61 /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = zutil.c; path = ../../External/WDL/WDL/zlib/zutil.c; sourceTree = "<group>"; };
+		285419E41958B2110031FB61 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zutil.h; path = ../../External/WDL/WDL/zlib/zutil.h; sourceTree = "<group>"; };
+		285419FA1958B5E40031FB61 /* pngwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngwrite.c; path = ../../External/WDL/WDL/libpng/pngwrite.c; sourceTree = "<group>"; };
+		285419FD1958BD7C0031FB61 /* DockWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DockWindow.cpp; sourceTree = "<group>"; };
+		285419FE1958BD7C0031FB61 /* DockWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DockWindow.h; sourceTree = "<group>"; };
+		28541A051958CF210031FB61 /* Menus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Menus.cpp; sourceTree = "<group>"; };
+		28541A061958CF210031FB61 /* Menus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menus.h; sourceTree = "<group>"; };
+		28541A091958CF4A0031FB61 /* localize-import.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "localize-import.h"; sourceTree = "<group>"; };
+		28541A0A1958CF4A0031FB61 /* localize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = localize.h; sourceTree = "<group>"; };
+		28D8A997195EC8AA000BA321 /* lice_svg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lice_svg.cpp; path = ../../External/WDL/WDL/lice/lice_svg.cpp; sourceTree = "<group>"; };
+		28DDA68919594643003FDF03 /* resources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resources.h; sourceTree = "<group>"; };
+		28EBD2E21960BCB4003CDAED /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinystr.cpp; path = ../../External/WDL/WDL/tinyxml/tinystr.cpp; sourceTree = "<group>"; };
+		28EBD2E31960BCB4003CDAED /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinystr.h; path = ../../External/WDL/WDL/tinyxml/tinystr.h; sourceTree = "<group>"; };
+		28EBD2E41960BCB4003CDAED /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxml.cpp; path = ../../External/WDL/WDL/tinyxml/tinyxml.cpp; sourceTree = "<group>"; };
+		28EBD2E51960BCB4003CDAED /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyxml.h; path = ../../External/WDL/WDL/tinyxml/tinyxml.h; sourceTree = "<group>"; };
+		28EBD2E61960BCB4003CDAED /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlerror.cpp; path = ../../External/WDL/WDL/tinyxml/tinyxmlerror.cpp; sourceTree = "<group>"; };
+		28EBD2E71960BCB4003CDAED /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlparser.cpp; path = ../../External/WDL/WDL/tinyxml/tinyxmlparser.cpp; sourceTree = "<group>"; };
+		28F0EE821955F74C003BF618 /* reaper_ultraschall.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = reaper_ultraschall.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F0EE851955F74C003BF618 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		28F0EE881955F74C003BF618 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28F0EE891955F74C003BF618 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		28F0EE8A1955F74C003BF618 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		28F0EE8D1955F74C003BF618 /* Reaper Plugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reaper Plugin-Prefix.pch"; sourceTree = "<group>"; };
+		28F0EE961955F74C003BF618 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		28F0EED819560665003BF618 /* reaper_plugin_functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reaper_plugin_functions.h; sourceTree = "<group>"; };
+		28F0EED919560665003BF618 /* reaper_plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reaper_plugin.h; sourceTree = "<group>"; };
+		28F0EEDC195606F6003BF618 /* reaper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reaper.cpp; sourceTree = "<group>"; };
+		28F0EEDD195606F6003BF618 /* reaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reaper.h; sourceTree = "<group>"; };
+		28F0EEE219560759003BF618 /* tinyxml2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxml2.cpp; path = ../../External/tinyxml2/tinyxml2.cpp; sourceTree = "<group>"; };
+		28F0EEE319560759003BF618 /* tinyxml2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyxml2.h; path = ../../External/tinyxml2/tinyxml2.h; sourceTree = "<group>"; };
+		28F0EEEA1956086D003BF618 /* Ultraschall Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ultraschall Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F0EEEE1956086D003BF618 /* Ultraschall Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ultraschall Tests-Info.plist"; sourceTree = "<group>"; };
+		28F0EEF01956086D003BF618 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28F0EEF21956086D003BF618 /* Ultraschall_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ultraschall_Tests.m; sourceTree = "<group>"; };
+		28F0EEF41956086D003BF618 /* Ultraschall Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ultraschall Tests-Prefix.pch"; sourceTree = "<group>"; };
+		28F0EEFA195621F2003BF618 /* Chapter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter.cpp; sourceTree = "<group>"; };
+		28F0EEFC19562203003BF618 /* Shownote.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shownote.cpp; sourceTree = "<group>"; };
+		28F0EF1219562C43003BF618 /* sws_rpf_wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sws_rpf_wrapper.h; sourceTree = "<group>"; };
+		28F0EF1519565FA4003BF618 /* Chapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chapter.h; sourceTree = "<group>"; };
+		28F0EF1619565FAE003BF618 /* Shownote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shownote.h; sourceTree = "<group>"; };
+		28F0EF281956FC41003BF618 /* swell-functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "swell-functions.h"; path = "../../External/WDL/WDL/swell/swell-functions.h"; sourceTree = "<group>"; };
+		28F0EF291956FC41003BF618 /* swell-types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "swell-types.h"; path = "../../External/WDL/WDL/swell/swell-types.h"; sourceTree = "<group>"; };
+		28F0EF2A1956FC41003BF618 /* swell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = swell.h; path = ../../External/WDL/WDL/swell/swell.h; sourceTree = "<group>"; };
+		28F0EF58195743A8003BF618 /* lice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lice.h; path = ../../External/WDL/WDL/lice/lice.h; sourceTree = "<group>"; };
+		28F0EF5A195743B6003BF618 /* lice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lice.cpp; path = ../../External/WDL/WDL/lice/lice.cpp; sourceTree = "<group>"; };
+		42595201195A1A8F00231F3D /* Auphonic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Auphonic.cpp; sourceTree = "<group>"; };
+		42595202195A1A8F00231F3D /* Auphonic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Auphonic.h; sourceTree = "<group>"; };
+		42595206195A1AAD00231F3D /* json11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json11.cpp; path = ../../External/json11/json11.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28F0EE7F1955F74C003BF618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285419CA1958AC1E0031FB61 /* Carbon.framework in Frameworks */,
+				28F0EE861955F74C003BF618 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F0EEE71956086D003BF618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F0EEEB1956086D003BF618 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282F99C8195C351000E24A1C /* tinyxml */ = {
+			isa = PBXGroup;
+			children = (
+				28EBD2E21960BCB4003CDAED /* tinystr.cpp */,
+				28EBD2E31960BCB4003CDAED /* tinystr.h */,
+				28EBD2E41960BCB4003CDAED /* tinyxml.cpp */,
+				28EBD2E51960BCB4003CDAED /* tinyxml.h */,
+				28EBD2E61960BCB4003CDAED /* tinyxmlerror.cpp */,
+				28EBD2E71960BCB4003CDAED /* tinyxmlparser.cpp */,
+			);
+			name = tinyxml;
+			sourceTree = "<group>";
+		};
+		2854196F1958A7530031FB61 /* libpng */ = {
+			isa = PBXGroup;
+			children = (
+				285419701958A75C0031FB61 /* png.c */,
+				285419711958A75C0031FB61 /* png.h */,
+				285419721958A75C0031FB61 /* pngconf.h */,
+				285419731958A75C0031FB61 /* pngerror.c */,
+				285419741958A75C0031FB61 /* pngget.c */,
+				285419751958A75C0031FB61 /* pngmem.c */,
+				285419761958A75C0031FB61 /* pngpread.c */,
+				285419771958A75C0031FB61 /* pngread.c */,
+				285419781958A75C0031FB61 /* pngrio.c */,
+				285419791958A75C0031FB61 /* pngrtran.c */,
+				2854197A1958A75C0031FB61 /* pngrutil.c */,
+				2854197B1958A75C0031FB61 /* pngset.c */,
+				2854197C1958A75C0031FB61 /* pngtrans.c */,
+				2854197D1958A75C0031FB61 /* pngwio.c */,
+				2854197E1958A75C0031FB61 /* pngwtran.c */,
+				2854197F1958A75C0031FB61 /* pngwutil.c */,
+				285419FA1958B5E40031FB61 /* pngwrite.c */,
+			);
+			name = libpng;
+			sourceTree = "<group>";
+		};
+		285419CF1958B1C20031FB61 /* zlib */ = {
+			isa = PBXGroup;
+			children = (
+				285419D01958B2110031FB61 /* adler32.c */,
+				285419D11958B2110031FB61 /* compress.c */,
+				285419D21958B2110031FB61 /* crc32.c */,
+				285419D31958B2110031FB61 /* crc32.h */,
+				285419D41958B2110031FB61 /* deflate.c */,
+				285419D51958B2110031FB61 /* deflate.h */,
+				285419D61958B2110031FB61 /* inffast.c */,
+				285419D71958B2110031FB61 /* inffast.h */,
+				285419D81958B2110031FB61 /* inffixed.h */,
+				285419D91958B2110031FB61 /* inflate.c */,
+				285419DA1958B2110031FB61 /* inflate.h */,
+				285419DB1958B2110031FB61 /* inftrees.c */,
+				285419DC1958B2110031FB61 /* inftrees.h */,
+				285419DD1958B2110031FB61 /* trees.c */,
+				285419DE1958B2110031FB61 /* trees.h */,
+				285419DF1958B2110031FB61 /* uncompr.c */,
+				285419E01958B2110031FB61 /* zconf.h */,
+				285419E11958B2110031FB61 /* zconf.in.h */,
+				285419E21958B2110031FB61 /* zlib.h */,
+				285419E31958B2110031FB61 /* zutil.c */,
+				285419E41958B2110031FB61 /* zutil.h */,
+			);
+			name = zlib;
+			sourceTree = "<group>";
+		};
+		285419FC1958BD690031FB61 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				28541A051958CF210031FB61 /* Menus.cpp */,
+				28541A061958CF210031FB61 /* Menus.h */,
+				285419FD1958BD7C0031FB61 /* DockWindow.cpp */,
+				285419FE1958BD7C0031FB61 /* DockWindow.h */,
+			);
+			name = UserInterface;
+			sourceTree = "<group>";
+		};
+		28F0EE791955F74C003BF618 = {
+			isa = PBXGroup;
+			children = (
+				28F0EE8B1955F74C003BF618 /* Reaper Plugin */,
+				28F0EEEC1956086D003BF618 /* Tests */,
+				28F0EE841955F74C003BF618 /* Frameworks */,
+				28F0EE831955F74C003BF618 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28F0EE831955F74C003BF618 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28F0EE821955F74C003BF618 /* reaper_ultraschall.dylib */,
+				28F0EEEA1956086D003BF618 /* Ultraschall Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28F0EE841955F74C003BF618 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				285419C91958AC1E0031FB61 /* Carbon.framework */,
+				28F0EE851955F74C003BF618 /* Cocoa.framework */,
+				28F0EE961955F74C003BF618 /* XCTest.framework */,
+				28F0EE871955F74C003BF618 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28F0EE871955F74C003BF618 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28F0EE881955F74C003BF618 /* Foundation.framework */,
+				28F0EE891955F74C003BF618 /* CoreData.framework */,
+				28F0EE8A1955F74C003BF618 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		28F0EE8B1955F74C003BF618 /* Reaper Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				28F0EEAD1955F848003BF618 /* Reaper */,
+				28F0EEAC1955F83C003BF618 /* Ultraschall-Platform */,
+				28F0EE8C1955F74C003BF618 /* Supporting Files */,
+			);
+			path = "Reaper Plugin";
+			sourceTree = "<group>";
+		};
+		28F0EE8C1955F74C003BF618 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42595205195A1A9C00231F3D /* json11 */,
+				28F0EF3419570BFD003BF618 /* sws */,
+				28F0EEE119560740003BF618 /* tinyxml2 */,
+				28F0EEE019560735003BF618 /* WDL */,
+				28F0EE8D1955F74C003BF618 /* Reaper Plugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28F0EEAC1955F83C003BF618 /* Ultraschall-Platform */ = {
+			isa = PBXGroup;
+			children = (
+				42595200195A1A7A00231F3D /* Auphonic */,
+				28F0EEB11955F886003BF618 /* Chapter */,
+				28F0EEB21955F88C003BF618 /* Shownote */,
+			);
+			name = "Ultraschall-Platform";
+			sourceTree = "<group>";
+		};
+		28F0EEAD1955F848003BF618 /* Reaper */ = {
+			isa = PBXGroup;
+			children = (
+				285419FC1958BD690031FB61 /* UserInterface */,
+				28DDA68919594643003FDF03 /* resources.h */,
+				28541A091958CF4A0031FB61 /* localize-import.h */,
+				28541A0A1958CF4A0031FB61 /* localize.h */,
+				28F0EEDD195606F6003BF618 /* reaper.h */,
+				28F0EED919560665003BF618 /* reaper_plugin.h */,
+				28F0EED819560665003BF618 /* reaper_plugin_functions.h */,
+				28F0EEDC195606F6003BF618 /* reaper.cpp */,
+				282F99D7195C5E0300E24A1C /* svg_colors.cpp */,
+			);
+			name = Reaper;
+			sourceTree = "<group>";
+		};
+		28F0EEB11955F886003BF618 /* Chapter */ = {
+			isa = PBXGroup;
+			children = (
+				28F0EEFA195621F2003BF618 /* Chapter.cpp */,
+				28F0EF1519565FA4003BF618 /* Chapter.h */,
+			);
+			name = Chapter;
+			sourceTree = "<group>";
+		};
+		28F0EEB21955F88C003BF618 /* Shownote */ = {
+			isa = PBXGroup;
+			children = (
+				28F0EEFC19562203003BF618 /* Shownote.cpp */,
+				28F0EF1619565FAE003BF618 /* Shownote.h */,
+			);
+			name = Shownote;
+			sourceTree = "<group>";
+		};
+		28F0EEE019560735003BF618 /* WDL */ = {
+			isa = PBXGroup;
+			children = (
+				282F99C8195C351000E24A1C /* tinyxml */,
+				285419B11958A9880031FB61 /* projectcontext.cpp */,
+				285419CB1958ACDD0031FB61 /* sha.cpp */,
+				285419CF1958B1C20031FB61 /* zlib */,
+				2854196F1958A7530031FB61 /* libpng */,
+				28F0EF5719574398003BF618 /* lice */,
+				28F0EF35195742D9003BF618 /* wingui */,
+				28F0EF2E1956FC46003BF618 /* swell */,
+			);
+			name = WDL;
+			sourceTree = "<group>";
+		};
+		28F0EEE119560740003BF618 /* tinyxml2 */ = {
+			isa = PBXGroup;
+			children = (
+				28F0EEE219560759003BF618 /* tinyxml2.cpp */,
+				28F0EEE319560759003BF618 /* tinyxml2.h */,
+			);
+			name = tinyxml2;
+			sourceTree = "<group>";
+		};
+		28F0EEEC1956086D003BF618 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				28F0EEF21956086D003BF618 /* Ultraschall_Tests.m */,
+				28F0EEED1956086D003BF618 /* Supporting Files */,
+			);
+			name = Tests;
+			path = "Ultraschall Tests";
+			sourceTree = "<group>";
+		};
+		28F0EEED1956086D003BF618 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28F0EEEE1956086D003BF618 /* Ultraschall Tests-Info.plist */,
+				28F0EEEF1956086D003BF618 /* InfoPlist.strings */,
+				28F0EEF41956086D003BF618 /* Ultraschall Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28F0EF2E1956FC46003BF618 /* swell */ = {
+			isa = PBXGroup;
+			children = (
+				285419B31958A9E10031FB61 /* swell-misc.mm */,
+				285419B51958AB380031FB61 /* swell-internal.h */,
+				285419B71958AB460031FB61 /* swell-dlggen.h */,
+				285419B91958AB510031FB61 /* swell-menu.mm */,
+				285419BB1958AB670031FB61 /* swell.cpp */,
+				285419BD1958AB6F0031FB61 /* swell-ini.cpp */,
+				28F0EF2A1956FC41003BF618 /* swell.h */,
+				285419BF1958AB8F0031FB61 /* swell-miscdlg.mm */,
+				285419C01958AB8F0031FB61 /* swell-modstub.mm */,
+				285419C31958AB9F0031FB61 /* swell-wnd.mm */,
+				285419C51958ABA90031FB61 /* swell-dlg.mm */,
+				285419CD1958AF5E0031FB61 /* swell-gdi.mm */,
+				285419C71958ABC80031FB61 /* swell-kb.mm */,
+				28F0EF281956FC41003BF618 /* swell-functions.h */,
+				28F0EF291956FC41003BF618 /* swell-types.h */,
+			);
+			name = swell;
+			sourceTree = "<group>";
+		};
+		28F0EF3419570BFD003BF618 /* sws */ = {
+			isa = PBXGroup;
+			children = (
+				28F0EF1219562C43003BF618 /* sws_rpf_wrapper.h */,
+			);
+			name = sws;
+			sourceTree = "<group>";
+		};
+		28F0EF35195742D9003BF618 /* wingui */ = {
+			isa = PBXGroup;
+			children = (
+				2854199D1958A9100031FB61 /* virtwnd-slider.cpp */,
+				2854199F1958A92D0031FB61 /* virtwnd-controls.h */,
+				285419A01958A92D0031FB61 /* virtwnd-iconbutton.cpp */,
+				285419A11958A92D0031FB61 /* virtwnd-listbox.cpp */,
+				285419A21958A92D0031FB61 /* virtwnd-skin.h */,
+				285419A31958A92D0031FB61 /* virtwnd.cpp */,
+				285419A41958A92D0031FB61 /* virtwnd.h */,
+				285419A51958A92D0031FB61 /* wndsize.cpp */,
+				285419A61958A92D0031FB61 /* wndsize.h */,
+			);
+			name = wingui;
+			path = ../../External/WDL/WDL/wingui;
+			sourceTree = "<group>";
+		};
+		28F0EF5719574398003BF618 /* lice */ = {
+			isa = PBXGroup;
+			children = (
+				28F0EF58195743A8003BF618 /* lice.h */,
+				28F0EF5A195743B6003BF618 /* lice.cpp */,
+				285419911958A8A30031FB61 /* lice_arc.cpp */,
+				285419921958A8A30031FB61 /* lice_image.cpp */,
+				285419931958A8A30031FB61 /* lice_line.cpp */,
+				285419941958A8A30031FB61 /* lice_png.cpp */,
+				28D8A997195EC8AA000BA321 /* lice_svg.cpp */,
+				285419951958A8A30031FB61 /* lice_text.h */,
+				285419961958A8A30031FB61 /* lice_textnew.cpp */,
+			);
+			name = lice;
+			sourceTree = "<group>";
+		};
+		42595200195A1A7A00231F3D /* Auphonic */ = {
+			isa = PBXGroup;
+			children = (
+				42595201195A1A8F00231F3D /* Auphonic.cpp */,
+				42595202195A1A8F00231F3D /* Auphonic.h */,
+			);
+			name = Auphonic;
+			sourceTree = "<group>";
+		};
+		42595205195A1A9C00231F3D /* json11 */ = {
+			isa = PBXGroup;
+			children = (
+				42595206195A1AAD00231F3D /* json11.cpp */,
+			);
+			name = json11;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28F0EE801955F74C003BF618 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285419ED1958B2110031FB61 /* inffixed.h in Headers */,
+				28EBD2EB1960BCB4003CDAED /* tinyxml.h in Headers */,
+				285419EC1958B2110031FB61 /* inffast.h in Headers */,
+				42595204195A1A8F00231F3D /* Auphonic.h in Headers */,
+				285419F11958B2110031FB61 /* inftrees.h in Headers */,
+				285419EF1958B2110031FB61 /* inflate.h in Headers */,
+				285419F61958B2110031FB61 /* zconf.in.h in Headers */,
+				285419AA1958A92D0031FB61 /* virtwnd-skin.h in Headers */,
+				285419821958A75C0031FB61 /* pngconf.h in Headers */,
+				28F0EF59195743A8003BF618 /* lice.h in Headers */,
+				28541A0B1958CF4A0031FB61 /* localize-import.h in Headers */,
+				285419AE1958A92D0031FB61 /* wndsize.h in Headers */,
+				28EBD2E91960BCB4003CDAED /* tinystr.h in Headers */,
+				285419811958A75C0031FB61 /* png.h in Headers */,
+				285419E81958B2110031FB61 /* crc32.h in Headers */,
+				285419B81958AB460031FB61 /* swell-dlggen.h in Headers */,
+				28541A001958BD7C0031FB61 /* DockWindow.h in Headers */,
+				285419F31958B2110031FB61 /* trees.h in Headers */,
+				285419F71958B2110031FB61 /* zlib.h in Headers */,
+				285419AC1958A92D0031FB61 /* virtwnd.h in Headers */,
+				285419F51958B2110031FB61 /* zconf.h in Headers */,
+				285419EA1958B2110031FB61 /* deflate.h in Headers */,
+				2854199B1958A8A30031FB61 /* lice_text.h in Headers */,
+				285419F91958B2110031FB61 /* zutil.h in Headers */,
+				28541A081958CF210031FB61 /* Menus.h in Headers */,
+				285419A71958A92D0031FB61 /* virtwnd-controls.h in Headers */,
+				285419B61958AB380031FB61 /* swell-internal.h in Headers */,
+				28541A0C1958CF4A0031FB61 /* localize.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28F0EE811955F74C003BF618 /* reaper_ultraschall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F0EEA61955F74C003BF618 /* Build configuration list for PBXNativeTarget "reaper_ultraschall" */;
+			buildPhases = (
+				28F0EE7E1955F74C003BF618 /* Sources */,
+				28F0EE7F1955F74C003BF618 /* Frameworks */,
+				28F0EE801955F74C003BF618 /* Headers */,
+				28F0EF14195652AD003BF618 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = reaper_ultraschall;
+			productName = "Reaper Plugin";
+			productReference = 28F0EE821955F74C003BF618 /* reaper_ultraschall.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		28F0EEE91956086D003BF618 /* Ultraschall Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F0EEF71956086D003BF618 /* Build configuration list for PBXNativeTarget "Ultraschall Tests" */;
+			buildPhases = (
+				28F0EEE61956086D003BF618 /* Sources */,
+				28F0EEE71956086D003BF618 /* Frameworks */,
+				28F0EEE81956086D003BF618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28F0EEF61956086D003BF618 /* PBXTargetDependency */,
+			);
+			name = "Ultraschall Tests";
+			productName = "Ultraschall Tests";
+			productReference = 28F0EEEA1956086D003BF618 /* Ultraschall Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28F0EE7A1955F74C003BF618 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Ultraschall;
+				TargetAttributes = {
+					28F0EEE91956086D003BF618 = {
+						TestTargetID = 28F0EE811955F74C003BF618;
+					};
+				};
+			};
+			buildConfigurationList = 28F0EE7D1955F74C003BF618 /* Build configuration list for PBXProject "Reaper Plugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28F0EE791955F74C003BF618;
+			productRefGroup = 28F0EE831955F74C003BF618 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28F0EE811955F74C003BF618 /* reaper_ultraschall */,
+				28F0EEE91956086D003BF618 /* Ultraschall Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28F0EEE81956086D003BF618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F0EEF11956086D003BF618 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28F0EF14195652AD003BF618 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$USER\" == \"_teamsserver\" ]]\nthen\necho \"do nothing\"\nelse\nif [ \"$CONFIGURATION\" == \"Debug\" ]\nthen\ncp $TARGET_BUILD_DIR/${PRODUCT_NAME}.dylib ~/Library/Application\\ Support/REAPER/UserPlugins/\nfi\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28F0EE7E1955F74C003BF618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282F99D9195C5E0300E24A1C /* svg_colors.cpp in Sources */,
+				285419891958A75C0031FB61 /* pngrtran.c in Sources */,
+				28F0EEE419560759003BF618 /* tinyxml2.cpp in Sources */,
+				285419F41958B2110031FB61 /* uncompr.c in Sources */,
+				285419841958A75C0031FB61 /* pngget.c in Sources */,
+				2854199C1958A8A30031FB61 /* lice_textnew.cpp in Sources */,
+				28EBD2EA1960BCB4003CDAED /* tinyxml.cpp in Sources */,
+				285419EB1958B2110031FB61 /* inffast.c in Sources */,
+				285419B41958A9E10031FB61 /* swell-misc.mm in Sources */,
+				285419A91958A92D0031FB61 /* virtwnd-listbox.cpp in Sources */,
+				285419C61958ABA90031FB61 /* swell-dlg.mm in Sources */,
+				28F0EF5B195743B6003BF618 /* lice.cpp in Sources */,
+				285419981958A8A30031FB61 /* lice_image.cpp in Sources */,
+				285419AB1958A92D0031FB61 /* virtwnd.cpp in Sources */,
+				28EBD2ED1960BCB4003CDAED /* tinyxmlparser.cpp in Sources */,
+				285419FF1958BD7C0031FB61 /* DockWindow.cpp in Sources */,
+				285419BC1958AB670031FB61 /* swell.cpp in Sources */,
+				285419C81958ABC80031FB61 /* swell-kb.mm in Sources */,
+				285419F21958B2110031FB61 /* trees.c in Sources */,
+				28541A071958CF210031FB61 /* Menus.cpp in Sources */,
+				285419991958A8A30031FB61 /* lice_line.cpp in Sources */,
+				285419E91958B2110031FB61 /* deflate.c in Sources */,
+				42595203195A1A8F00231F3D /* Auphonic.cpp in Sources */,
+				285419BA1958AB510031FB61 /* swell-menu.mm in Sources */,
+				285419AD1958A92D0031FB61 /* wndsize.cpp in Sources */,
+				28EBD2E81960BCB4003CDAED /* tinystr.cpp in Sources */,
+				285419E71958B2110031FB61 /* crc32.c in Sources */,
+				285419801958A75C0031FB61 /* png.c in Sources */,
+				285419CE1958AF5E0031FB61 /* swell-gdi.mm in Sources */,
+				285419E61958B2110031FB61 /* compress.c in Sources */,
+				285419E51958B2110031FB61 /* adler32.c in Sources */,
+				285419A81958A92D0031FB61 /* virtwnd-iconbutton.cpp in Sources */,
+				2854198D1958A75C0031FB61 /* pngwio.c in Sources */,
+				2854198C1958A75C0031FB61 /* pngtrans.c in Sources */,
+				2854199E1958A9100031FB61 /* virtwnd-slider.cpp in Sources */,
+				285419EE1958B2110031FB61 /* inflate.c in Sources */,
+				285419F81958B2110031FB61 /* zutil.c in Sources */,
+				2854199A1958A8A30031FB61 /* lice_png.cpp in Sources */,
+				2854198F1958A75C0031FB61 /* pngwutil.c in Sources */,
+				285419C21958AB8F0031FB61 /* swell-modstub.mm in Sources */,
+				285419C11958AB8F0031FB61 /* swell-miscdlg.mm in Sources */,
+				285419881958A75C0031FB61 /* pngrio.c in Sources */,
+				2854198E1958A75C0031FB61 /* pngwtran.c in Sources */,
+				285419F01958B2110031FB61 /* inftrees.c in Sources */,
+				285419831958A75C0031FB61 /* pngerror.c in Sources */,
+				285419971958A8A30031FB61 /* lice_arc.cpp in Sources */,
+				28D8A998195EC8AA000BA321 /* lice_svg.cpp in Sources */,
+				285419BE1958AB6F0031FB61 /* swell-ini.cpp in Sources */,
+				2854198B1958A75C0031FB61 /* pngset.c in Sources */,
+				285419C41958AB9F0031FB61 /* swell-wnd.mm in Sources */,
+				28EBD2EC1960BCB4003CDAED /* tinyxmlerror.cpp in Sources */,
+				28F0EEDE195606F6003BF618 /* reaper.cpp in Sources */,
+				285419FB1958B5E40031FB61 /* pngwrite.c in Sources */,
+				285419861958A75C0031FB61 /* pngpread.c in Sources */,
+				285419871958A75C0031FB61 /* pngread.c in Sources */,
+				285419CC1958ACDD0031FB61 /* sha.cpp in Sources */,
+				285419851958A75C0031FB61 /* pngmem.c in Sources */,
+				28F0EF1819566196003BF618 /* Shownote.cpp in Sources */,
+				2854198A1958A75C0031FB61 /* pngrutil.c in Sources */,
+				42595207195A1AAD00231F3D /* json11.cpp in Sources */,
+				28F0EF1719566193003BF618 /* Chapter.cpp in Sources */,
+				285419B21958A9880031FB61 /* projectcontext.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F0EEE61956086D003BF618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F0EEF31956086D003BF618 /* Ultraschall_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28F0EEF61956086D003BF618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28F0EE811955F74C003BF618 /* reaper_ultraschall */;
+			targetProxy = 28F0EEF51956086D003BF618 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28F0EEEF1956086D003BF618 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F0EEF01956086D003BF618 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28F0EEA41955F74C003BF618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		28F0EEA51955F74C003BF618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		28F0EEA71955F74C003BF618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reaper Plugin/Reaper Plugin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWELL_APP_PREFIX=ultraschall",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../External/WDL ../External/json11";
+			};
+			name = Debug;
+		};
+		28F0EEA81955F74C003BF618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reaper Plugin/Reaper Plugin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "SWELL_APP_PREFIX=ultraschall";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../External/WDL ../External/json11";
+			};
+			name = Release;
+		};
+		28F0EEF81956086D003BF618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ultraschall Tests/Ultraschall Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ultraschall Tests/Ultraschall Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		28F0EEF91956086D003BF618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ultraschall Tests/Ultraschall Tests-Prefix.pch";
+				INFOPLIST_FILE = "Ultraschall Tests/Ultraschall Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28F0EE7D1955F74C003BF618 /* Build configuration list for PBXProject "Reaper Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F0EEA41955F74C003BF618 /* Debug */,
+				28F0EEA51955F74C003BF618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F0EEA61955F74C003BF618 /* Build configuration list for PBXNativeTarget "reaper_ultraschall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F0EEA71955F74C003BF618 /* Debug */,
+				28F0EEA81955F74C003BF618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F0EEF71956086D003BF618 /* Build configuration list for PBXNativeTarget "Ultraschall Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F0EEF81956086D003BF618 /* Debug */,
+				28F0EEF91956086D003BF618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28F0EE7A1955F74C003BF618 /* Project object */;
+}
